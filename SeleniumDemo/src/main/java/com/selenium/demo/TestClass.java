@@ -28,7 +28,7 @@ public class TestClass  {
 		options.put("proxy", "myhttpproxy:80");
 		
 		ChromeOptions chromeOptions=new ChromeOptions();
-		chromeOptions.setCapability(key, value);
+//		chromeOptions.setCapability(key, value);
 		
 		
 		
