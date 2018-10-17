@@ -34,6 +34,11 @@ public class Constructors {
 		
 		System.out.println("******************获取私有构造方法，并调用*******************************");
 		
+		con=class1.getDeclaredConstructor(char.class);
+		System.out.println(con);
+		con.setAccessible(true);
+		object=con.newInstance('男');
+		
 		
 		
 	}
